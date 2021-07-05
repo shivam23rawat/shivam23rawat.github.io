@@ -24,7 +24,7 @@ export const aboutData = {
     'I can build responsive websites using and learning the latest tech in Web Development. Currently working on the MERN stack for complete web application development and learning flask as well to host ML models on the web.',
   paragraphThree:
     'Interested in opportunities in Web Development field in both front-end and back-end.',
-  resume: 'https://drive.google.com/file/d/189oMDaP6CdL9PJeCe__APscuPEjRSdTm/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1nsGhum61LP0foys50LZRTQUIydB3Cc7A/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
