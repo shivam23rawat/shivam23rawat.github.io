@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Shivam Rawat - Backend Engineer building Python services and developer infrastructure.">
+  <meta name="theme-color" content="#f4f0e8">
+  <title>Shivam Rawat | Backend Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Shivam Rawat home">SR<span>.</span></a>
+      <nav class="top-nav" aria-label="Main navigation">
+        <a href="#work">Work</a>
+        <a href="#toolkit">Toolkit</a>
+        <a href="#about">About</a>
+      </nav>
+      <a class="header-link" href="Resume.pdf" download>Download CV <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main id="top">
+      <section class="hero section-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Backend engineer <span class="eyebrow-dot"></span> Bengaluru, India</p>
+          <h1>Building the quiet systems that make ambitious teams move.</h1>
+          <p class="hero-intro">I build reliable Python services, shared developer tooling, and cloud infrastructure for teams working with complex data.</p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="mailto:shivamrawat2000@gmail.com">Let's talk <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="#work">See selected work <span aria-hidden="true">↓</span></a>
+          </div>
+        </div>
+        <div class="hero-aside reveal reveal-delay">
+          <div class="status-mark"><span></span> Currently at Mercedes-Benz R&amp;D India</div>
+          <div class="hero-note">
+            <span class="note-index">01 / 04</span>
+            <p>Four years turning messy workflows into dependable products, platforms, and pipelines.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="signal-band section-grid reveal" aria-label="Career highlights">
+        <div class="signal-item"><strong>4+</strong><span>years engineering</span></div>
+        <div class="signal-item"><strong>6</strong><span>global sites supported</span></div>
+        <div class="signal-item"><strong>100–200 GB</strong><span>orchestrated per pipeline run</span></div>
+        <div class="signal-item"><strong>70%</strong><span>fewer manual deploy errors</span></div>
+      </section>
+
+      <section class="content-section section-grid" id="work">
+        <div class="section-label reveal"><span>02</span><span>Experience</span></div>
+        <div class="section-content">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Selected experience</p>
+            <h2>From first commit to production habit.</h2>
+          </div>
+
+          <article class="role reveal">
+            <div class="role-meta"><span>Jul 2023 — Present</span><span>Bengaluru</span></div>
+            <div class="role-body">
+              <h3>Software Engineer</h3>
+              <p class="company">Mercedes-Benz R&amp;D India</p>
+              <ul>
+                <li>Built two FastAPI microservices on GCP and Kubernetes for ADAS recording annotation workflows used by external partners and internal teams.</li>
+                <li>Created a centralized GitLab CI/CD catalog adopted across six repositories, standardizing build, test, and deploy practices.</li>
+                <li>Developed and published a Python JWT/SSO SDK to JFrog Artifactory, decoupling authentication from application code for backend teams.</li>
+                <li>Designed a Flyte pipeline orchestrating 100–200 GB transfers between GCP buckets and downstream metadata APIs.</li>
+                <li>Provisioned GCP registries, service accounts, and IAM roles with Pulumi across four deployment environments.</li>
+              </ul>
+              <div class="role-tags"><span>FastAPI</span><span>GCP</span><span>Kubernetes</span><span>Flyte</span><span>Kafka</span></div>
+            </div>
+          </article>
+
+          <article class="role reveal">
+            <div class="role-meta"><span>Aug 2022 — Jun 2023</span><span>Bengaluru</span></div>
+            <div class="role-body">
+              <h3>Graduate Engineer Trainee</h3>
+              <p class="company">Mercedes-Benz R&amp;D India</p>
+              <ul>
+                <li>Rewrote a legacy Django metadata app in Flask with JSON-template-driven forms, cutting new form delivery from days to hours.</li>
+                <li>Deployed and operated the metadata tool on-premise via Docker for 10 concurrent users across six countries.</li>
+                <li>Owned Jenkins pipelines for three applications, reducing manual deployment errors by 70%.</li>
+                <li>Built a Flask video playback service with metadata-based filtering for drive recordings.</li>
+              </ul>
+              <div class="role-tags"><span>Flask</span><span>Docker</span><span>Jenkins</span><span>PostgreSQL</span></div>
+            </div>
+          </article>
+
+          <article class="role role-last reveal">
+            <div class="role-meta"><span>Mar 2022 — Jul 2022</span><span>Bengaluru</span></div>
+            <div class="role-body">
+              <h3>Software Engineering Intern</h3>
+              <p class="company">Mercedes-Benz R&amp;D India</p>
+              <ul>
+                <li>Built a proof-of-concept decentralized authentication system with Hyperledger Indy, researching DIDs, Verifiable Credentials, and Zero-Knowledge Proofs.</li>
+                <li>Integrated facial recognition for profile-based vehicle access control within the blockchain identity prototype.</li>
+              </ul>
+              <div class="role-tags"><span>Python</span><span>Hyperledger Indy</span><span>Identity</span></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-section section-grid" id="toolkit">
+        <div class="section-label reveal"><span>03</span><span>Toolkit</span></div>
+        <div class="section-content toolkit-content">
+          <div class="section-heading reveal"><p class="eyebrow">Tools I reach for</p><h2>Practical by default. Curious by nature.</h2></div>
+          <div class="toolkit-grid reveal">
+            <div class="tool-group"><h3>Languages</h3><p>Python<br>SQL<br>TypeScript <small>(Pulumi)</small></p></div>
+            <div class="tool-group"><h3>Backend</h3><p>FastAPI<br>Flask<br>Django<br>Kafka<br>Flyte</p></div>
+            <div class="tool-group"><h3>Data</h3><p>PostgreSQL<br>MSSQL<br>MongoDB</p></div>
+            <div class="tool-group"><h3>Infrastructure</h3><p>Docker<br>Kubernetes<br>GCP<br>ArgoCD<br>Pulumi</p></div>
+            <div class="tool-group"><h3>Quality &amp; delivery</h3><p>GitLab CI<br>Jenkins<br>JFrog<br>Black Duck<br>Polaris</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="closing-section section-grid" id="about">
+        <div class="section-label reveal"><span>04</span><span>Elsewhere</span></div>
+        <div class="closing-copy reveal">
+          <p class="eyebrow">A little more context</p>
+          <h2>Good infrastructure should feel almost invisible.</h2>
+          <p>I enjoy the work between product intent and operational reality: asking the extra question, making the repeated thing reusable, and leaving systems easier to understand than I found them.</p>
+          <div class="education"><span>Education</span><strong>B.Tech, Computer Science Engineering</strong><small>PES University, Bengaluru · 2018 — 2022</small></div>
+          <div class="awards"><span>Awards</span><p>MBRDI X-Stream Award (2026) · Silver Award (2025) · Process Innovation Award (2024) · Departmental Silver Award (2024)</p></div>
+        </div>
+      </section>
+
+      <section class="contact-section reveal">
+        <p class="eyebrow">Have a problem worth solving?</p>
+        <h2>Let's build something<br><em>dependable.</em></h2>
+        <a class="contact-email" href="mailto:shivamrawat2000@gmail.com">shivamrawat2000@gmail.com <span aria-hidden="true">↗</span></a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© <span id="year"></span> Shivam Rawat</span>
+      <div><a href="https://linkedin.com/in/shivam23rawat" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="Resume.pdf" target="_blank" rel="noreferrer">Resume PDF ↗</a></div>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
